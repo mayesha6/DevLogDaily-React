@@ -1,11 +1,12 @@
 import React from 'react'
-import Blogs from './components/blogs'
+import Header from './components/Header'
+import BLogPage from './components/BLogPage'
 
 const App = () => {
   return (
     <>
-    <div className='text-amber-700'>App</div>
-    <Blogs/>
+      <Header />
+      <BLogPage />
     </>
   )
 }

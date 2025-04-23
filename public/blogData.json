@@ -1,48 +1,52 @@
 [
-    {
-      "blog_img": "https://images.unsplash.com/photo-1581276879432-15a3b1c1aefd?auto=format&fit=crop&w=800&q=80",
-      "author_img": "https://randomuser.me/api/portraits/women/44.jpg",
-      "author_name": "Jane Doe",
-      "blog_title": "Mastering React for Front-End Development",
-      "published_day": "2025-04-20",
-      "read_time": 5,
-      "hashtag": ["#React", "#JavaScript", "#WebDev"]
-    },
-    {
-      "blog_img": "https://images.unsplash.com/photo-1581090700227-1e8d094a5f70?auto=format&fit=crop&w=800&q=80",
-      "author_img": "https://randomuser.me/api/portraits/men/32.jpg",
-      "author_name": "John Smith",
-      "blog_title": "How Tailwind CSS Makes Styling Effortless",
-      "published_day": "2025-04-18",
-      "read_time": 3,
-      "hashtag": ["#Tailwind", "#CSS", "#UI"]
-    },
-    {
-      "blog_img": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80",
-      "author_img": "https://randomuser.me/api/portraits/women/65.jpg",
-      "author_name": "Emily Johnson",
-      "blog_title": "Top 10 Tips for Effective Remote Work",
-      "published_day": "2025-04-15",
-      "read_time": 7,
-      "hashtag": ["#RemoteWork", "#Productivity", "#WorkLife"]
-    },
-    {
-      "blog_img": "https://images.unsplash.com/photo-1629904853690-6f83b3a2f823?auto=format&fit=crop&w=800&q=80",
-      "author_img": "https://randomuser.me/api/portraits/men/76.jpg",
-      "author_name": "Michael Brown",
-      "blog_title": "Understanding MongoDB for Beginners",
-      "published_day": "2025-04-10",
-      "read_time": 6,
-      "hashtag": ["#MongoDB", "#Database", "#NoSQL"]
-    },
-    {
-      "blog_img": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80",
-      "author_img": "https://randomuser.me/api/portraits/women/30.jpg",
-      "author_name": "Sophia Lee",
-      "blog_title": "Firebase Authentication in Modern Web Apps",
-      "published_day": "2025-04-05",
-      "read_time": 4,
-      "hashtag": ["#Firebase", "#Auth", "#WebSecurity"]
-    }
+  {
+    "id": 1,
+    "blog_img": "https://img.freepik.com/free-photo/coding-man_1098-18084.jpg?t=st=1745347947~exp=1745351547~hmac=6a8aeb75630483fd6d01e2166d8635ef2ebbdc3cd201f785f42adbc2edc49c86&w=996",
+    "author_img": "https://randomuser.me/api/portraits/women/44.jpg",
+    "author_name": "Jane Doe",
+    "blog_title": "Mastering React for Front-End Development",
+    "published_day": "2025-04-20",
+    "read_time": 5,
+    "hashtag": ["#React", "#JavaScript", "#WebDev"]
+  },
+  {
+    "id": 2,
+    "blog_img": "https://img.freepik.com/free-photo/man-working-table_1098-18196.jpg?t=st=1745348187~exp=1745351787~hmac=38626c14210c57b0711e4020f327e6456f34ffdb52ebc5e051afbae52f7be585&w=996",
+    "author_img": "https://randomuser.me/api/portraits/men/32.jpg",
+    "author_name": "John Smith",
+    "blog_title": "How Tailwind CSS Makes Styling Effortless",
+    "published_day": "2025-04-18",
+    "read_time": 3,
+    "hashtag": ["#Tailwind", "#CSS", "#UI"]
+  },
+  {
+    "id": 3,
+    "blog_img": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80",
+    "author_img": "https://randomuser.me/api/portraits/women/65.jpg",
+    "author_name": "Emily Johnson",
+    "blog_title": "Top 10 Tips for Effective Remote Work",
+    "published_day": "2025-04-15",
+    "read_time": 7,
+    "hashtag": ["#RemoteWork", "#Productivity", "#WorkLife"]
+  },
+  {
+    "id": 4,
+    "blog_img": "https://img.freepik.com/free-photo/it-specialist-checking-code-computer-dark-office-night_1098-18699.jpg?t=st=1745348283~exp=1745351883~hmac=01c039d913589a993a7aa4fe1b6ef72ecd4e291424ccf7ad75aee1780d3e9ce1&w=996",
+    "author_img": "https://randomuser.me/api/portraits/men/76.jpg",
+    "author_name": "Michael Brown",
+    "blog_title": "Understanding MongoDB for Beginners",
+    "published_day": "2025-04-10",
+    "read_time": 6,
+    "hashtag": ["#MongoDB", "#Database", "#NoSQL"]
+  },
+  {
+    "id": 5,
+    "blog_img": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80",
+    "author_img": "https://randomuser.me/api/portraits/women/30.jpg",
+    "author_name": "Sophia Lee",
+    "blog_title": "Firebase Authentication in Modern Web Apps",
+    "published_day": "2025-04-05",
+    "read_time": 4,
+    "hashtag": ["#Firebase", "#Auth", "#WebSecurity"]
+  }
 ]
-  
