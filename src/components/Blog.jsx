@@ -1,7 +1,7 @@
 import React from 'react'
 import { CiBookmark } from "react-icons/ci";
 
-const Blog = ({blog, handleBookmark}) => {
+const Blog = ({blog, handleBookmark, handleSpentTime}) => {
     const {blog_img, author_img, author_name, blog_title, published_day, read_time, hashtag} = blog
   return (
     <div>
@@ -29,8 +29,8 @@ const Blog = ({blog, handleBookmark}) => {
                 )
             })}
         </ul>
-        <button>
-            <a href="#" className='text-blue-500 duration-300 hover:text-blue-700 hover:underline  pb-16 block'>Mark as read</a>
+        <button onClick={()=>handleSpentTime(blog.read_time)} className='text-blue-500 duration-300 hover:text-blue-700 hover:underline  pb-16 block'>
+        Mark as read
         </button>
     </div>
   )
