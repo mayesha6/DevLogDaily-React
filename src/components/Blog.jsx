@@ -18,7 +18,7 @@ const Blog = ({blog, handleBookmark, handleSpentTime}) => {
             </div>
             <div className='flex items-center gap-1'>
                 <p className='text-sm text-gray-400 font-semibold'>{read_time} min read</p>
-                <CiBookmark className='text-gray-500 cursor-pointer hover:text-blue-600 duration-300' onClick={()=>handleBookmark(blog.blog_title)}/>
+                <CiBookmark className='text-gray-500 cursor-pointer hover:text-blue-600 duration-300' onClick={()=>handleBookmark(blog)}/>
             </div>
         </div>
         <h2 className='text-3xl lg:text-5xl font-bold lg:leading-[60px] py-2'>{blog_title}</h2>
@@ -29,7 +29,7 @@ const Blog = ({blog, handleBookmark, handleSpentTime}) => {
                 )
             })}
         </ul>
-        <button onClick={()=>handleSpentTime(blog.read_time)} className='text-blue-500 duration-300 hover:text-blue-700 hover:underline  pb-16 block'>
+        <button onClick={()=>handleSpentTime(blog)} className='text-purple-600 duration-300 hover:text-purple-900 hover:underline  pb-16 block font-bold'>
         Mark as read
         </button>
     </div>

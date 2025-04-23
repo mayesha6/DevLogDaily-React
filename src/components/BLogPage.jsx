@@ -10,12 +10,15 @@ const BLogPage = () => {
   const handleBookmark = (blog) => {
     if(!bookmark.includes(blog)){
       const allBookmarkBlog = [...bookmark, blog]
-      setBookmark(allBookmarkBlog)       
+      setBookmark(allBookmarkBlog)
+      
     }
   }
 
   const handleSpentTime = (blog) => {
-    setSpentTime(()=>spentTime+blog)
+    setSpentTime(()=>spentTime+blog.read_time)
+    const remainingBookmark =  bookmark.filter((b)=>b.id!==blog.id)
+    setBookmark(remainingBookmark)
   }
   return (
     <section className='py-10'>
